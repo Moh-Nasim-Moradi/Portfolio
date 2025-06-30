@@ -1,12 +1,10 @@
-import type {NextConfig} from 'next';
 const isProd = process.env.NODE_ENV === 'production';
-const nextConfig: NextConfig = {
-  /* config options here */
 
+const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['localhost'],
-    unoptimized: true, // Disable default image optimization
+    unoptimized: true,
   },
   assetPrefix: isProd ? '/portfolio/' : '',
   basePath: isProd ? '/portfolio' : '',
