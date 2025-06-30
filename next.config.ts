@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
     domains: ['localhost'],
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/portfolio-nextjs/' : '',
-  basePath: isProd ? '/portfolio-nextjs' : '',
+  assetPrefix: isProd ? '/portfolio/' : '',
+  basePath: isProd ? '/portfolio' : '',
   output: 'export',
 };
 
