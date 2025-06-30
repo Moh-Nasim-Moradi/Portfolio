@@ -1,11 +1,11 @@
 {
   "name": "portfolio-nextjs",
   "version": "0.1.0",
-  "homepage": "https://Moh-Nasim-Moradi.github.io/portfolio",
+  "homepage": "https://github.com/Moh-Nasim-Moradi/Portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "deploy": "npm run build && gh-pages -d out"

@@ -5,8 +5,8 @@ const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true,
   output: 'export',
-  basePath: isProd ? '/portfolio' : '',
-  assetPrefix: isProd ? '/portfolio/' : '',
+  basePath: isProd ? '/Portfolio' : '',
+  assetPrefix: isProd ? '/Portfolio/' : '',
   images: {
     unoptimized: true, // چون next/image در حالت export پشتیبانی کامل ندارد
   },
